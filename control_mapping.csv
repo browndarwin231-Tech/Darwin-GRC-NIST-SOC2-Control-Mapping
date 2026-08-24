@@ -1,1 +1,11 @@
-
+Security Control,NIST CSF,SOC 2 Area,Status,Risk Level,Assessment Notes,Recommendation
+Multi-Factor Authentication,PR.AA,Logical Access,Implemented,Low,MFA is enabled for user accounts,Continue enforcing MFA and review exceptions regularly
+Employee Access Reviews,PR.AA,Logical Access,Partial,Medium,Access reviews are not performed on a consistent schedule,Perform quarterly access reviews and document approvals
+Centralized Security Logging,DE.CM,System Monitoring,Implemented,Low,Security logs are collected centrally,Maintain log retention and review alert coverage regularly
+Incident Response Plan,RS.MA,Incident Management,Partial,High,An incident response plan exists but has not been formally tested,Conduct annual tabletop exercises and document lessons learned
+Security Awareness Training,PR.AT,Personnel Security,Implemented,Low,Employees receive security awareness training,Continue annual training and track employee completion
+Vendor Risk Assessment,ID.RA,Vendor Management,Missing,High,No formal third-party risk assessment process exists,Create a vendor risk management process with security questionnaires and recurring reviews
+Backup and Recovery,RC.RP,Availability,Partial,Medium,Backups are performed but restoration testing is inconsistent,Perform quarterly restore tests and document recovery results
+Terminated User Removal,PR.AA,Logical Access,Partial,High,Former employee accounts may remain active after termination,Integrate account disabling into the employee offboarding process
+Privileged Account Review,PR.AA,Logical Access,Partial,High,Administrator access is not reviewed regularly,Perform quarterly privileged-access reviews and remove unnecessary permissions
+Firewall Protection,PR.PS,Security Operations,Implemented,Low,Network firewall controls are deployed,Review firewall rules periodically and remove unnecessary rules
