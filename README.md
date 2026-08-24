@@ -137,6 +137,17 @@ Darwin-GRC-NIST-SOC2-Control-Mapping/
 ├── remediation_plan.md
 └── evidence/
 
+# Evidence Screenshots
+
+### Control Mapping
+![Control Mapping](evidence/control-mapping.png)
+
+### Risk Register
+![Risk Register](evidence/risk-register.png)
+
+### Gap Assessment
+![Gap Assessment](evidence/gap-assessment.png)
+
 ## Skills Demonstrated
 
 - Governance, Risk, and Compliance
