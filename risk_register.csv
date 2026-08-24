@@ -1,1 +1,9 @@
-
+Risk ID,Risk Description,Asset/Process,Likelihood,Impact,Risk Score,Risk Rating,Existing Control,Control Gap,Recommended Remediation
+R-001,Former employee retains system access,Identity and Access Management,3,5,15,High,Employee offboarding process,Accounts may remain active after termination,Automate account disabling and perform quarterly access reviews
+R-002,Third-party vendor compromise,Vendor Management,3,4,12,High,Informal vendor review,No formal third-party risk assessment process,Implement vendor security questionnaires and recurring risk reviews
+R-003,Incident response failure,Incident Response,3,5,15,High,Incident response plan exists,Plan has not been tested,Conduct annual tabletop exercises and document lessons learned
+R-004,Backup restoration failure,Business Continuity and Recovery,2,5,10,Medium,Regular backups,Restore testing is inconsistent,Perform quarterly backup restoration tests and document results
+R-005,Excessive privileged access,Identity and Access Management,3,5,15,High,Administrator accounts are restricted,Privileged access is not reviewed regularly,Conduct quarterly privileged access reviews and remove unnecessary permissions
+R-006,Security monitoring gap,Security Monitoring,2,4,8,Medium,Centralized security logging,Alert coverage may not be reviewed consistently,Perform recurring log source and detection coverage reviews
+R-007,Employee phishing compromise,Security Awareness,3,4,12,High,Annual security awareness training,Training effectiveness may not be measured,Conduct phishing simulations and track training completion
+R-008,Firewall misconfiguration,Network Security,2,4,8,Medium,Network firewall deployed,Rules may become outdated,Review firewall rules quarterly and remove unnecessary access
